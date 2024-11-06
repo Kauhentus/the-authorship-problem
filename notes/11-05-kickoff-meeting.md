@@ -64,6 +64,17 @@ Our compute:
     - Manually remove footnotes/editors notes
 - Figure out preprocessing of files
 
+* Josh:
+    * Get list of authors for y'all
+    * Ask professor about authorship problem plays
+    * Add to repository
+    * copy paste from PG to corpus folder
+    * Schedule google calendar 4PM TUE/FRI 
+* Bella:
+    * copy paste from PG to corpus folder
+* Yiyang:
+    * copy paste from PG to corpus folder
+
 11/11 WORD EMBEDDINGS:
 - Tokenization problem
 - Pretrained vs train ourselves
