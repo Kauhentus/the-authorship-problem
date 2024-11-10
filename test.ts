@@ -50,7 +50,7 @@ const corpus_tokens: string[][] = corpus.map(process_text);
 // const frequencies = vocab_frequencies_dict;
 
 // console.log(corpus_tokens[0])
-// console.log(corpus_tokens.map(tokens => tokens.length).reduce((a, b) => a + b))
+console.log(corpus_tokens.flat().map(s => s.split(' ')).flat().length)
 
 for(let i = 0; i < corpus_filenames.length; i++){
     const result = corpus_tokens[i].join('\n');

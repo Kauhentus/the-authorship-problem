@@ -26,7 +26,7 @@ import fs from 'fs';
 // fs.writeFileSync('out.txt', filtered_lines);
 
 // remove lines with "Page 12" or "View Page"
-const text = fs.readFileSync(`./webster, appius and virginia.txt`).toString();
+const text = fs.readFileSync(`./massinger, the bashful lover.txt`).toString();
 const lines = text.split('\n');
 const filtered_lines = lines.filter(((line: string) => {
     const line_args = line.split(' ');

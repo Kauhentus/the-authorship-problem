@@ -48,11 +48,11 @@ the place prop 'd you, or be b nished Rome
 immediately: Lictors  e wa : we expe 
 you   peedy re olution.
 Exe t Oppius, Minut s
-1. Cozen.
+1Cozen.
 Noble cozen,
 you wrong your selfe extremely to refuse
 so Eminent a place.
-2. Cozen.
+2Cozen.
 It is a meanes
 to raise your kindred. Who shall dare t'oppose
 himselfe against our Family, when yonder
@@ -115,7 +115,7 @@ we now must part, necessity of State
 compells it so.
 I must inhabit, now a place unknowne,
 you see't compels me leave you. Fare you well.
-1. Cozen.
+1Cozen.
 To banishment, my Lord?
 Appius.
 I am given up
@@ -128,7 +128,7 @@ this honourable calling.
 Minu.
 Worthy Appius,
 the gods conduct you hither: Lictors, His robes.
-2. Cozen.
+2Cozen.
 We are made for ever, noble kinsman,
 'twas but to fright us.
 Appius.
@@ -169,7 +169,7 @@ He sings and beats his wings far from his nest.
 Appius.
 So Gentlemen, I take it, here takes end
 your businesse; my acquaintance, fare you well.
-1. Cozen.
+1Cozen.
 Heres a quick change, who did expect this cloud?
 Thus men when they grow great doe strait grow proud.
 Appius.
@@ -1021,11 +1021,11 @@ Thus men must flight their wrongs, or else conceal them,
 when generall safety wills us not reveale them.
 Exeunt.
 Enter two Petitioners at one doore, at the other M. Clodius.
-1. Petit.
+1Petit.
 Pray is your Lord at leasure?
 M. Clodius.
 What is your suite?
-1. Pet.
+1Pet.
 To accept this poore Petition which makes knowne,
 my many wrongs in which I crave his Justice,
 and upright sentence to support my cause,
@@ -1034,11 +1034,11 @@ M. Clodius.
 My Lords hand is the prop of Innocence,
 and if your cause be worthy his supportance
 it cannot fall.
-1. Petitioner.
+1Petitioner.
 The gods of Rome protect him.
 Clodius.
 What, is your paper too petitionary?
-2. Petit.
+2Petit.
 It leanes upon the Justice of the Judge,
 your noble Lord, the very stay of Rome.
 Clodius.
@@ -2140,60 +2140,60 @@ Why how now Corbulo? thou wast not wont to be of this sad temper. What's the mat
 Corb.
 Times change, and seasons alter, some men are born to the Bench, and some to the halter. What do you think now that I am?
 
-1. Serving.
+1Serving.
 I think thee to be Virginia's man, and Corbulo.
 Corb.
 No, no such matter: ghess again, tell me but what I am, or what manner of fellow you imagine me to be?
 
-1. Serving.
+1Serving.
 I take thee to be an honest good, fellow.
 
 
 
 Corb.
 Wide of the  ow hand stil  Corbulo is no such man.
-2. Serving.
+2Serving.
 What art thou then?
 Corb.
 Listen, and I'l describe my self to you: I am something better then a Knave, and yet come shor  of being an honest man; and though I can sing a  ble, yet m accounted b  one of the base, being indeed, and a  the ca  stands with me at this present, in∣feriour to a rogue, and three degrees worse then a Rascal.
 
-1. Serving.
+1Serving.
 How comes this to passe?
 Corb.
 Only by my services successe. Take heed whom you serve. Oh you serving Creatures; for this is all I have got by serving my Lady Virginia.
 
-2. Serving.
+2Serving.
 Why, what of her?
 Corb.
 She is not the woman you take hee to be; for though she have borrowed no money, yet she entered into bonds; and though you may think her a woman not sufficient, yet 'tis very like her bond will be taken. The truth   challenged to be a bond woman; now if she be a bond woman and a slave, and I her servant and Vassal, what did you take me to be? I am an A , a Coat, a worm, a Wood∣cock amongst birds, a Hodmond d amongst flies, amongst Cu s a trindle tale, and amongst fishes a poor Ipèr; but amongst Serving men worse, worse then the mans man to the under Yeomen Few ∣rer.
 
-1. Serving.
+1Serving.
 But is it possible, thy Lady is challenged to be a slave? What witness have they?
 
 Corb.
 Witness these Fountains, these Flood-gates, these Well∣springs: the poor Gentlewoman was Arrested in the open Market; I offered, I offered to bail her; (though she was) I could not be taken. The grief hath gone so  ar my heart, that I be made free, I shall never be mine own man. The Lord Appius hath com∣mitted her to Ward, and it is thought she shall neither lye on the Knight side, not in the Troping Ward, for if he may have his will of her, he means to put in the Hole. His Warrant hath be  out for her, but how the case stands with him, or how matters will be taken up with her,  s yet uncertain.
 
-2. Serving.
+2Serving.
 When shall the Tryal be?
 Corb.
 I take it to be as soon as the morning is brought a bed of a new son and  
 
-2. Serving.
+2Serving.
 And vvhen is that▪
 Corb.
   to  , every morning you knovv brings forth a nevv  n, b  they   short liv'd, for every night shee drovvns them in the Western  ea. But  hese  , as too high for your d ll app   . Shall   you at the Tryal to morrow?
 
-1. Serving.
+1Serving.
 By  lp  e there.
 
 
 
-2. Serving.
+2Serving.
 And I, if I li ▪
 Corb.
 And I, if I dye for  : Here's my hand I'l meet you. It is thought my old master will be there at the Bar; for though all the timber of his house yet stand, yet my Lord Numitorius hath sent one of his Posts to the Camp to bid him spur cut and come to the sen∣tence. Oh we have a house at home as heavy as if it were covered with lead. But you will remember to be there.
 
-1. Serving.
+1Serving.
 And not to fail.
 Corb.
 If I chance to meet you there, and that the Case go against us, I will give you a quart, not of Wine, but of Tears; for instead of a new Role, I purpose to break my Fast with sops of sorrow.
@@ -2579,7 +2579,7 @@ Clear thy self first, O Appius, ere thou judg
 our imperfections rashly, for we wot
 the Office of a Justice is perverted quite
 when one thief hangs another.
-1. Senator.
+1Senator.
 You are too bold.
 App.
 Lictors take charge of him▪
@@ -2784,7 +2784,7 @@ to bee a Roman Tribune.
 Enter the first mutinous Souldier in haste.
 Minut.
 Now, the newes?
-1. Sould.
+1Sould.
 Virginius in a strange shape of distraction,
 enters the Campe, and at his heels a legion
 of all estates, growths, ages, and degrees,
@@ -2829,7 +2829,7 @@ to an old begging souldier, Have I here
 no honest Legionary of mine own Troo 
 at whose bold hand and sword, if not  .
 I may command a death?
-1. Sould.
+1Sould.
 Alas good Captain.
 Minut.
 Virginius, you have no command at all,
@@ -2901,9 +2901,9 @@ Virg.
 To you I appeal, you are my Sentencers:
 Did Appius right, or poor Virginius wrong?
 Sentence my Fact with a free general tongue.
-1. Sold.
+1Sold.
 Appius is the Parricide.
-2. Sold.
+2Sold.
 Virginins guiltless of his daughters death.
 Minut.
 It this be true, Virginius as the moan
@@ -2940,7 +2940,7 @@ the self same hand that dar'd to save from shame
 
 a child, dares in the father the  
    ill himself.
-1. Sould.
+1Sould.
 Stay noble General
 Minut.
 You much for   nge, Virginias.
@@ -2956,9 +2956,9 @@ You that have wives lodg'd in you prison Rome,
 have Lands unri ed, houses yet  ;
 your freeborn daughters yet unstrumpeted,
 prevent these mischiefs yet while you have time.
-1. Sold.
+1Sold.
 We will by you our noble General.
-2. Sold.
+2Sold.
 He that was destin'd to preserve great Rome.
 Virg.
 I accept your ch ▪ in hope to guard you all
