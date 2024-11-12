@@ -6,7 +6,33 @@ const corpus = corpus_filenames
     .map(path => fs.readFileSync(path).toString());
 
 const process_line = (line: string) => {
-    const result = line
+    let result = line;
+    
+    // remove stuff between brackets
+    let bracket_processed = false;
+    if(line.includes('[') && line.includes(']')){
+        const fst_bracket_idx = line.indexOf('[');
+        const snd_bracket_idx = line.indexOf(']');
+        if(fst_bracket_idx < snd_bracket_idx){
+            result = result.slice(0, fst_bracket_idx) + result.slice(snd_bracket_idx + 1);
+            bracket_processed = true;
+        }
+    }
+    if(!bracket_processed && line.includes('[')){
+        const fst_bracket_idx = line.indexOf('[');
+        result = result.slice(0, fst_bracket_idx);
+        bracket_processed = true;
+    }
+    if(!bracket_processed && line.includes(']')){
+        const snd_bracket_idx = line.indexOf(']');
+        result = result.slice(snd_bracket_idx);
+        bracket_processed = true;
+    }
+
+    // remove symbols and ALL CAPS sentences (not text)
+    // and normalize editor-added puncuation
+    result = line
+        .replace(/[’‘]/g, "'")
         .replace(/[_,:;\[\]{}\(\)—“”]/g, '')
         .replace(/[0-9]/g, '')
         .replace(/-/g, ' ')
@@ -18,6 +44,8 @@ const process_line = (line: string) => {
 }
 
 const process_text = (text: string) => {
+    // remove excess white space
+    // and then run process_line()
     const result = text
         .split('\n')
         .map(line => line.trim())
@@ -25,31 +53,20 @@ const process_text = (text: string) => {
         .filter(line => line.length > 0)
         .join(' ');
 
+    // clean up sentences
     const sentences = result
         .split('.')
         .map(sentence => sentence.trim())
         .map(sentence => sentence.toLocaleLowerCase())
         .map(sentence => sentence.split(' '))
         .map(tokens => tokens.filter(token => token.length !== 0))
-        .filter(tokens => tokens.length > 3)
+        .filter(tokens => tokens.length > 2) // at least 3 tokens in a sentence
         .map(tokens => tokens.join(' '))
 
     return sentences;
 }
 
 const corpus_tokens: string[][] = corpus.map(process_text);
-// const corpus_tokens_flattened = corpus_tokens.flat().flat();
-
-// const vocab_list = [...new Set(corpus_tokens_flattened)]
-// const vocab_frequencies_dict = Object.assign({}, ...vocab_list.map(key => ({ [key]: 0 })));
-// corpus_tokens_flattened.forEach(token => vocab_frequencies_dict[token] += 1);
-
-// console.log(vocab_frequencies_dict)
-// console.log((Object.values(vocab_frequencies_dict) as number[]).filter(n => n >= 5));
-
-// const frequencies = vocab_frequencies_dict;
-
-// console.log(corpus_tokens[0])
 console.log(corpus_tokens.flat().map(s => s.split(' ')).flat().length)
 
 for(let i = 0; i < corpus_filenames.length; i++){
