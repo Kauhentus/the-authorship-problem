@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 
-const corpus_filenames = fs.readdirSync('./corpus');
+const corpus_filenames = fs.readdirSync('./corpus')
+    .filter(filename => filename !== "script.ts");
 const corpus = corpus_filenames
     .map(filename => `./corpus/${filename}`)
     .map(path => fs.readFileSync(path).toString());
@@ -33,7 +34,7 @@ const process_line = (line: string) => {
     // and normalize editor-added puncuation
     result = line
         .replace(/[’‘]/g, "'")
-        .replace(/[_,:;\[\]{}\(\)—“”]/g, '')
+        .replace(/[_,:;\[\]{}\(\)—“”&<>$/\\=\+`\^]/g, '')
         .replace(/[0-9]/g, '')
         .replace(/-/g, ' ')
         .replace(/[\?\!]/g, '.')
@@ -60,6 +61,13 @@ const process_text = (text: string) => {
         .map(sentence => sentence.toLocaleLowerCase())
         .map(sentence => sentence.split(' '))
         .map(tokens => tokens.filter(token => token.length !== 0))
+        .map(tokens => tokens.filter(word => !(word.length === 1 && [ // remove weird characters
+            'b', 'c', 'f',
+            'g', 'h', 'j', 'k',
+            'p', 'q', 'r',
+            'v', 'w', 'x',
+            'y', 'z'
+        ].includes(word))))
         .filter(tokens => tokens.length > 2) // at least 3 tokens in a sentence
         .map(tokens => tokens.join(' '))
 
